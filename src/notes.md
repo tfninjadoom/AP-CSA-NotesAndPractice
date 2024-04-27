@@ -1,5 +1,5 @@
-# AP Computer Science A Notes
-### Program Structure  
+# AP Computer Science A Notes  
+## Program Structure  
 Files named `ClassName.java`  
 ```Java
 // Main.java
@@ -8,8 +8,10 @@ public class Main {
     //System.out.println("Hello world!");
   }
 }
-```  
-## Semantics
-- Java `boolean` instead of C++ `bool`
-- `public`/`private` specifiers in front of every definition/declaration
+```
+  
+## Semantics  
+- Java `boolean` instead of C++ ~~`bool`~~
+- constant variable with `final`  
+- `public`/`private` access specifiers in front of **every function & attribute** definition and declaration  
 

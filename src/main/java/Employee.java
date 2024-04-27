@@ -6,10 +6,10 @@ public class Employee {
   private double payRate;
 
   public Employee(String name, int age, int ID, double payRate) {
-    name = name;
-    age = age;
-    ID = ID;
-    payRate = payRate;
+    this.name = name;
+    this.age = age;
+    this.ID = ID;
+    this.payRate = payRate;
   }
   
   public String getName() {
@@ -24,7 +24,5 @@ public class Employee {
   public double getPayRate() {
     return payRate;
   }
-
-  
   
 }
